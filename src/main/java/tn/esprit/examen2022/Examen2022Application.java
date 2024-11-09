@@ -1,4 +1,4 @@
-package com.example.examen2022;
+package tn.esprit.examen2022;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

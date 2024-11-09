@@ -8,7 +8,7 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>tn.esprit</groupId>
 	<artifactId>Examen2022</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Examen2022</name>
