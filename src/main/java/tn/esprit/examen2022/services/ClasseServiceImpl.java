@@ -24,8 +24,8 @@ public class ClasseServiceImpl implements IClasseService{
     }
 
     @Override
-    public Classe addClasse(Classe classe) {
-        return classeRepository.save(classe);
+    public Classe ajouterClasse(Classe c) {
+        return classeRepository.save(c);
     }
 
     @Override

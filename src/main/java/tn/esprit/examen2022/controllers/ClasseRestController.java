@@ -24,9 +24,9 @@ public class ClasseRestController {
         return classeService.getClasseById(classeId);
     }
 
-    @PostMapping("/add-classe")
-    public Classe addClasse(@RequestBody Classe classe) {
-       return classeService.addClasse(classe);
+    @PostMapping("/ajouter-classe")
+    public Classe ajouterClasse(@RequestBody Classe c) {
+        return classeService.ajouterClasse(c);
     }
 
     @PutMapping("/modify-classe")

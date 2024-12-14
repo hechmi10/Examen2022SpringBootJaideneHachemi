@@ -7,7 +7,7 @@ import java.util.List;
 public interface IClasseService {
     List<Classe> getAllClasses();
     Classe getClasseById(Integer id);
-    Classe addClasse(Classe classe);
+    Classe ajouterClasse(Classe c);
     Classe updateClasse(Classe classe);
     void deleteClasse(Integer id);
 }
